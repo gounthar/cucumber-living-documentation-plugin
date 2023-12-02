@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>plugin</artifactId>
-        <version>3.6</version>
+        <version>4.51</version>
         <relativePath />
     </parent>
     <artifactId>cucumber-living-documentation</artifactId>
@@ -14,9 +14,8 @@
 
     <properties>
         <!-- Baseline Jenkins version you use to build the plugin. Users must have this version or newer to run. -->
-        <jenkins.version>2.73.3</jenkins.version>
+        <jenkins.version>2.346.3</jenkins.version>
         <!-- Java Level to use. Java 8 required when using core >= 2.50 -->
-        <java.level>8</java.level>
         <findbugs.failOnError>false</findbugs.failOnError>
     </properties>
 
